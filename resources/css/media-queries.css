@@ -1,0 +1,201 @@
+@media screen and (max-width: 576px){
+    /* Start of Navbar */
+    nav li:not(:first-child){
+        display: none;
+    }
+    nav li:last-child {
+        display: flex;
+    }
+    .open li:not(:first-child) {
+        display: flex;
+        flex-basis: 100%;
+        justify-content: end;
+    }
+    .open ul {
+        position: relative;
+    }
+    .open li:last-child {
+        position: absolute;
+        top: 12px;
+        right: 0;
+    }
+    #logo {
+        margin-left: 8px;
+    }
+    /* End of Navbar */
+
+    /* Start of About Section */
+    .feature-left, .feature-right {
+        text-align: center;
+    }
+    #about p {
+        text-align: justify;
+        margin: auto 8px 20px 8px;
+    }
+    #about {
+        padding-bottom: 0;
+    }
+   /* End of About Section */
+
+   /* Start of Branches Section */   
+    #branches .col-lg-3{
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    #branches .col-lg-3:last-child{
+        padding-bottom: 25px;
+    }
+    #branches img {
+        width: 95%;
+    }
+    /* End of Branches Section */  
+
+    /* Start of Contact Section */
+
+    #contact form {
+        width: 75%;
+    }
+    #contact .col-lg-4, .col-lg-8 {
+        margin: 0 auto;
+    }
+    #contact input[type="text"], [type="email"], select, textarea {
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #383838;
+        width: 100%;
+        padding: 8px;
+    }
+    #news {
+        margin-top: 16px;
+    }
+    /* End of Contact Section */
+
+    /* Start of Footer Section */
+    footer .col-lg-12>.row {
+        width: 75%;
+    }
+
+    footer hr {
+        width: 75%;
+    }
+    /* End of Footer Section */
+
+}
+
+@media screen and (min-width: 600px) {
+    /* Start of Navbar */
+    #logo {
+        margin-left: 12px;
+    } 
+    /* End of Navbar */
+
+    /* Start of About Section */
+    .feature-left, .feature-right {
+        text-align: center;
+    }
+    #about p {
+        width: 50%;
+        text-align: justify;
+        margin: auto auto 20px auto;
+    }
+    #about {
+        padding-bottom: 0;
+    }
+    /* End of About Section */
+
+    /* Start of Branches Section */   
+    #branches .col-lg-3{
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    #branches .col-lg-3:last-child{
+        padding-bottom: 25px;
+    }
+    #branches img {
+        width: 100%;
+    }
+    /* End of Branches Section */ 
+
+    /* Start of Contact Section */
+    #contact form {
+        width: 75%;
+    }
+    #contact .col-lg-4, .col-lg-8 {
+        margin: 0 auto;
+    }
+    #contact input[type="text"], [type="email"], select, textarea {
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #383838;
+        width: 100%;
+        padding: 8px;
+    }
+    #news {
+        margin-top: 16px;
+    }
+    /* End of Contact Section */
+
+    /* Start of Footer Section */
+    footer .col-lg-12>.row {
+        width: 100%;
+    }
+
+    footer hr {
+        width: 100%;
+    }
+    /* End of Footer Section */
+}
+
+@media screen and (min-width: 992px) {
+    /* Start of Navbar */
+    #logo {
+        margin-left: 0;
+    } 
+    /* End of Navbar */
+
+    /* Start of About Section */
+    .feature-left {
+        text-align: right;
+    }
+    .feature-right {
+        text-align: left;
+    }
+    #about p {
+        width: unset;
+        text-align: unset;
+        margin: auto auto 20px auto;
+    }
+    #about {
+        padding-bottom: 0;
+    }
+    /* End of About Section */
+    
+    /* Start of Branches Section */   
+    #branches .col-lg-3{
+        padding-bottom: 70px;
+        text-align: left;
+    }
+    #branches .col-lg-3:last-child{
+        padding-bottom: 70px;
+    }
+    #branches img {
+        width: 100%;
+    }
+    /* End of Branches Section */
+    
+    /* Start of Contact Section */
+    #news {
+        margin-top: 0;
+    }
+    /* End of Contact Section */
+
+    /* Start of Footer Section */
+    footer .col-lg-12>.row {
+        width: 75%;
+    }
+    footer hr {
+        width: 75%;
+    }
+    /* End of Footer Section */
+
+}
