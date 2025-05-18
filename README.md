@@ -46,15 +46,14 @@ Teeteilen is designed to provide users with an easy way to explore different typ
 To get a local copy of the project up and running, follow these steps:
 
 1. Clone the repository:
-   
-   git clone
+
    ```bash
-   https://github.com/japint/project-teeteilen
+   git clone https://github.com/japint/project-teeteilen
 
 3. Navigate to the project directory:
 
    ```bash
-    cd teeteilen
+   1 cd teeteilen
 
 4. Open index.html in your web browser to view the project.
 
